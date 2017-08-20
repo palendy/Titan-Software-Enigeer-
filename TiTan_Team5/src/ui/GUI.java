@@ -723,7 +723,9 @@ public class GUI extends javax.swing.JFrame {
 		jScrollPane2 = new javax.swing.JScrollPane();
 		splitPane.setRightComponent(jScrollPane2);
 		jTable1 = new javax.swing.JTable();
-
+		jTable1.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+		
+		
 		jTable1.addMouseListener(new MouseListener() {
 
 			@Override
@@ -827,7 +829,7 @@ public class GUI extends javax.swing.JFrame {
 		this.ForTable = replace;
 	}
 
-	public void setOriginal(Matrix replace){ //AnJaeHeok�� �߰��Ѱ�
+	public void setOriginal(Matrix replace){ //AnJaeHeokÀÌ Ãß°¡ÇÑ°Å
 		this.Original = replace;
 	}
 
